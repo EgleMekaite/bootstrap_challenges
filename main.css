@@ -1,0 +1,200 @@
+#exampleModal {
+    position: fixed;
+}
+.greenText{
+    color: green;
+}
+.oi-x {
+    color: red;
+}
+.teal {
+    color: white; 
+    background-color: teal;
+}
+.teal:hover {
+    background-color: #035656;
+}
+table thead .danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+}
+table thead .primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+table thead .teal-colored {
+    background-color: teal;
+    color: white;
+    border: none;
+}
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding-bottom: 30px;
+}
+body {
+    font-size: 12px;
+}
+.unordered li {
+    list-style-type: none;
+}
+.unordered {
+    padding-left: 0;
+}
+.smallText {
+    font-size: 10px;
+}
+.boldText {
+    font-weight: 600;
+}
+.oi-check {
+    color: green;
+}
+.form-control {
+    font-size: 12px;
+}
+.firstCol {
+    background-color: lightgrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.secondCol {
+    padding-right: 0;
+    border: none;
+    
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-top: 12px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: lightgray;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.block {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.timeline-badge {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: -15px;
+    color: white;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+    line-height: 35px;
+    text-align: center;
+}
+.check {
+    background-color: gray;
+}
+.warning {
+    background-color: firebrick;
+}
+.credit {
+    background-color: darkgoldenrod;
+}
+.left {
+    
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 27px;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 14px solid transparent;
+    
+}
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 27px;
+    border-top: 14px solid transparent;
+    border-left: 0 solid #ccc;
+    border-right: 14px solid #ccc;
+    border-bottom: 14px solid transparent;
+}
+.right .timeline-badge {
+    left: -20px;
+}
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+#timelineHeader {
+    padding: 12px;
+    border-bottom: 2px solid lightgray;
+}
+#tableHeader {
+    text-align: center;
+}
+.tableHeader, .tableBody {
+    text-align: center;
+}
+#hostingPricing {
+    max-width: 800px;
+    margin: auto;
+}
+  
+
+@media (max-width: 767px) {
+    .secondCol {
+        padding: 15px;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+    .block {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    .right {
+        left: 0%;
+    }
+    .right .timeline-badge, 
+    .left .timeline-badge {
+        left: 10px;
+    }
+    .block::before {
+        left: 57px;
+        border: medium solid lightgray;
+        border-width: 14px 14px 14px 0;
+        border-color: transparent  #fff transparent transparent;
+    }
+}
