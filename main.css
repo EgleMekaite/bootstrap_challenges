@@ -170,6 +170,20 @@ body {
     max-width: 800px;
     margin: auto;
 }
+#resume_contact_card {
+    padding: 12px 0 12px 0;
+    justify-content: space-between; 
+    flex-flow: row wrap;
+}
+#resume_photo {
+    max-width: 100%;
+    height: auto;
+}
+#resume_social_icons {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
   
 
 @media (max-width: 767px) {
@@ -196,5 +210,29 @@ body {
         border: medium solid lightgray;
         border-width: 14px 14px 14px 0;
         border-color: transparent  #fff transparent transparent;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+    #resume_header,
+    #resume_content {
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #resume_photo {
+        width: 60%;
+        height: 100%;
+    }
+    #photo_card {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    #resume_social_icons {
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        
+    }
+    #resume_social_icons .fa-rss-square {
+        margin-right: 0.25em;
     }
 }

@@ -15,58 +15,100 @@
     <script src="main.js"></script>
 </head>
 <body>
-        <header id="resumeHeader">
+    <div id="resume_header" class="container" style="max-width: 80%">
+        <header>
             <h2 class="text-center" style="padding: 16px 16px 0 16px;">Resume of John Doe</h2>
             <p class="text-center"><span class="oi oi-clock text-secondary"></span> Last updated on: Saturday, October 05 2017</p>
         </header>
-
+    
         <hr>
+    </div>
 
-        <div class="container" style="max-width: 50%;">
-            <div class="card">
-                <div class="card-header d-flex" style="justify-content: space-between">
-                    <div style="width: 35%">
-                        <img src="JohnDoe.jpg" class="img-responsive rounded-circle bg-secondary" style="width: 90%">
-                        <div class="btn-group" role="toolbar" aria-label="social_icons">
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-google btn btn-danger rounded"></a>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-facebook btn rounded" style="background: #3B5998; color: white;"></a>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-twitter btn rounded" style="background: #55ACEE; color: white;"></a>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-linkedin btn rounded" style="background: #007bb5; color: white;"></a>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-google btn btn-danger rounded"></a>
-                            </div>
-                            <div class="btn-group" role="group">
-                                <a href="#" class="fa fa-google btn btn-danger rounded"></a>
-                            </div>
-                        </div>
+    <div id="resume_content" class="container" style="max-width: 64%;">
+        <div class="card">
+            <div id="resume_contact_card" class="card-header d-flex">
+                <div id="photo_card" class="wf col-md-5">
+                    <img id="resume_photo" src="JohnDoe.jpg" class="card-img-top rounded-circle img-fluid" alt="your_photo">
+                    <div id="resume_social_icons" class="btn-group card-body text-center d-flex" role="toolbar" aria-label="social_icons">
+                        
+                        <a href="#" class="fa fa-google-plus-square fa-2x rounded p-0 mr-1" style="color: #d34836;"></a>
+                    
+                    
+                        <a href="#" class="fa fa-facebook-square fa-2x btn rounded p-0 mr-1" style="color: #3B5998;"></a>
+                    
+                    
+                        <a href="#" class="fa fa-twitter-square fa-2x btn rounded p-0 mr-1" style="color: #55ACEE;"></a>
+                    
+                    
+                        <a href="#" class="fa fa-linkedin-square fa-2x btn rounded p-0 mr-1" style="color: #007bb5;"></a>
+                    
+                    
+                        <a href="#" class="fa fa-github-square fa-2x btn rounded p-0 mr-1" style="color: black"></a>
+                    
 
-                    </div>
-
-                    <div class="list-group" style="width: 60%;">
-                        <span class="list-group-item">John Doe</span>
-                        <span class="list-group-item">Software Engineer</span>
-                        <span class="list-group-item">Google Inc.</span>
-                        <span class="list-group-item"><span class="oi oi-phone"></span> 000-000-0000</span>
-                        <span class="list-group-item"><span class="oi oi-envelope-closed"></span> john@example.com</span>
+                        <a href="#" class="fa fa-rss-square fa-2x btn rounded p-0" style="color: darkgoldenrod"></a>
+                        
                     </div>
 
                 </div>
 
-                <div class="card-body">
-
+                <div class="list-group col-md-7 wf">
+                    <span class="list-group-item">John Doe</span>
+                    <span class="list-group-item">Software Engineer</span>
+                    <span class="list-group-item">Google Inc.</span>
+                    <span class="list-group-item"><span class="oi oi-phone"></span> 000-000-0000</span>
+                    <span class="list-group-item"><span class="oi oi-envelope-closed"></span> john@example.com</span>
                 </div>
 
             </div>
 
+            <div class="card mb-2">
+                <div class="card-body" style="border-left: 3px solid #dc3545;">
+                    <h5 class="card-title text-danger">Summary</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                    <p class="card-text">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="card mb-2">
+                <div class="card-body" style="border-left: 3px solid #dc3545;">
+                    <h5 class="card-title text-danger">Research Interests</h5>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body" style="border-left: 3px solid #dc3545;">
+                    <h5 class="card-title text-danger">Prior Experience</h5>
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <h6 class="card-title">Software Engineer at Twitter</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                        <div class="list-group-item">
+                            <h6 class="card-title">Software Engineer at LinkedIn</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
         </div>
+
+    </div>
 
 </body>
 </html>
