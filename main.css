@@ -235,4 +235,10 @@ body {
     #resume_social_icons .fa-rss-square {
         margin-right: 0.25em;
     }
+    .exp {
+        margin-top: 6px;
+    }
+    .payment-card {
+        line-height: 2.2 !important;
+    }
 }
