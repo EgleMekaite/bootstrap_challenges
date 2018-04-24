@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Timeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="/Users/emekaite/Downloads/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card align-middle" style="margin: 36px auto; max-width: 420px;">
+                <div class="card-header">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Card Number" aria-label="">
+                        </div>
+                        <div class="form-group form-row">
+                            <div class="col-md-3 col-6">
+                                <label for="expMonth" style="font-size: 10px;">Expiry Month</label>
+                                <input type="text" class="form-control" placeholder="MM">
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <label for="expYear" style="font-size: 10px;">Expiry Year</label>
+                                <input type="text" class="form-control" placeholder="YY">
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <label for="expMonth" style="font-size: 10px;">CCV</label>
+                                <input type="text" class="form-control" placeholder="CCV">
+                            </div>
+                            
+                            <span class="oi oi-credit-card col-md-3 col-6" style="line-height: 1.8; font-size: -webkit-xxx-large; text-align: center"></span>
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name on the Card" aria-label="">
+                        </div>
+                        <div class="form-group form-check">
+                            <input class="form-check-input" type="checkbox" value="" style="margin-top: 0.2rem;">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Save details for fast payments 
+                                <a class="text-info form-link">learn how</a> ?
+                            </label>
+                        </div>
+                        <div class="form-group d-flex" style="flex-flow: row wrap; justify-content: space-between;">
+                            <button type="button" class="btn btn-danger col-3">Cancel</button>
+                            <button type="button" class="btn btn-warning text-light col-6">Pay Now</button>
+
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
