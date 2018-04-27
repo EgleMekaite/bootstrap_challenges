@@ -184,6 +184,9 @@ body {
     justify-content: space-around;
     
 }
+.blog-link {
+    text-decoration: underline !important;
+}
   
 
 @media (max-width: 767px) {
