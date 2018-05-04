@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Timeline</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="/Users/emekaite/Downloads/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 col-lg-4 mx-auto">
+                <div class="text-center">
+                    <div class="btn-group btn-group-sm" role="group" aria-label="login buttons"> 
+                        <button class="btn btn-primary">
+                            <span class="oi oi-plus"></span>
+                            <span> New User</span>
+                        </button>
+                        <button class="btn btn-danger">
+                            <span class="oi oi-person"></span>
+                            <span> I have an account</span>
+                        </button>
+                    </div>
+                </div>
+                    
+                <div class="card-text text-center my-3 font-weight-bold">
+                    Click to select
+                </div>
+                                        
+                <form>
+                    <div class="form-group">
+
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" aria-label="Email Address" placeholder="Email Address">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><span class="oi oi-envelope-closed"></span>
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" aria-label="Enter password" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><span class="oi oi-key"></span>
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" aria-label="Confirm password" placeholder="Confirm Password">
+                            <div class="input-group-append">
+                                    <span class="input-group-text"><span class="oi oi-key"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+                 
+                <hr>
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pay with:</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#paypal" id="paypal-tab" data-toggle="tab">$PayPal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bitcoin</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active text-center" id="paypal" aria-labelledby="paypal-tab">
+                        <h4 class="my-2">$9.99/mo with $</h4>
+                        <a class="text-info" href="#">What is PayPal?</a>
+                        <button class="btn btn-primary btn-block mt-2">PAY $9.99 USD WITH PAYPAL</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
